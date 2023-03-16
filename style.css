@@ -1,0 +1,31 @@
+.editor {
+    border: 1px solid black;
+    height: 600px;
+  }
+
+  .input-box{
+    font-size: 15px;
+    padding: 4px;
+  }
+  .toolbar {
+    background-color: #c0df93;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  button {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .content {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+  }
+  .content:focus {
+    outline: none;
+  }
+  
