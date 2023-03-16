@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Text Editor</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="editor">
+        <div class="toolbar ">
+            <div>
+                <button id="bold-btn"><b>B</b></button>
+                <button id="italic-btn"><i>I</i></button>
+                <button id="underline-btn"><u>U</u></button>
+                <select id="font-size" class="input-box">
+                    <option value="8px">8</option>
+                    <option value="12px">12</option>
+                    <option value="16px">16</option>
+                    <option value="20px">20</option>
+                    <option value="24px">24</option>
+                    <option value="28px">28</option>
+                    <option value="32px">32</option>
+                </select>
+            </div>
+            <button id="save-btn" >Save</button>
+        </div>
+        <div class="content" contenteditable="true"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
